@@ -1,0 +1,16 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
