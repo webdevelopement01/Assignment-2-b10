@@ -6,20 +6,28 @@
   
 }
 body{
+    max-width: 1060px;
+    margin: 0 auto;
+
      background-color: #111111;
 }
 /* nav bar design */
 header{
     max-width: 1060px;
-    height: 715px;
     margin: 0 auto;
-    
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);  
+}
+.header-continar{
+    max-width: 1060px;
+    margin: 0 auto;
+
+
 }
 .nav-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    margin-top: 50px;
 }
 
 .nav-logo{
@@ -52,7 +60,7 @@ header{
 .menu-icon {
     display: none;
     font-size: 28px;
-    /* color: white; */
+    color: white;
     cursor: pointer;
     order: 2;
 }
@@ -73,5 +81,72 @@ header{
 #menu-toggle:checked + .menu li {
     margin: 10px 0;
 }
+
+/* banner design */
+.banner{
+    display: flex;
+    margin-top: 50px;
+    gap: 90px;
+}
+span{
+    font-family: "Grey Qo", cursive;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;   
+}
+.banner-continar{
+    margin-right: 70px;
+    color: white;
+}
+.banner-continar h1{
+    font-size: 70px;
+}
+.banner-dec{
+    
+    font-size: 18px;
+    
+}
+.btn{
+    padding: 16px 40px;
+    color: white;
+    border-radius: 45px;
+    border: none;
+    margin-left: 14px;
+}
+.btn-primary{
+    background-color: #E6533C;
+}
+.btn-second{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* habits-section */
+.habites-continar{
+    background: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.habits-section{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.habits-title{
+    font-size: 48px;
+    color: white;
+}
+.habits-deccription{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+.habit-work{
+    
+}
+
+
 
 
