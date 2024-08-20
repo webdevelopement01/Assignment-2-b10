@@ -24,4 +24,54 @@
         flex-direction: column;
     
     }
+
+    .habit-work{
+        margin-top: 58px;
+        margin: 0 auto;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "D";
+        
+    }
+    .habit-main-title,.habit-main-description{
+        align-items: center;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    /* Run Extra Design  */
+    .extra-containar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-ran{
+        align-items: center;
+    
+    }
+
+
+    .exercise-clumns{
+        grid-template-columns: 50% 50%;
+    }
+
+    .exercise-clumns .img-exercise3{
+       /* visibility: hidden; */
+       display: none;
+       
+    }
+
+    .bmi-main{
+        flex-direction: column;
+    }
+
+   .trainer-main-continer{
+    grid-template-columns: repeat(1, 1fr);
+
+   }
+
+   .footer-content{
+    flex-direction: column;
+   }
 }
